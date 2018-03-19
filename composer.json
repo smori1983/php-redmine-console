@@ -1,0 +1,35 @@
+{
+    "name": "momo/redmine-console",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shinichiro MORI",
+            "email": "shinichiro.mori.1983@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/browser-kit": "^3.4",
+        "symfony/console": "^3.4",
+        "symfony/css-selector": "^3.4",
+        "symfony/dotenv": "^3.4",
+        "symfony/yaml": "^3.4"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Momo\\Redmine\\": "src/"
+        }
+    },
+    "autoload-dev": {},
+    "config": {
+        "autoloader-suffix": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "platform": {},
+        "preferred-install": {
+            "*": "dist"
+        },
+        "secure-http": false,
+        "sort-packages": true
+    }
+}

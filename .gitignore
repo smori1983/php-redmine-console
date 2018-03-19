@@ -1,3 +1,5 @@
+/.env
 /composer.lock
 /composer.phar
+/config.yml
 /vendor

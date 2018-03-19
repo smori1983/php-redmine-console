@@ -1,0 +1,5 @@
+redmine_root: https://redmine.example.com/
+
+knock:
+    - /projects/XXXXX/activity?show_issues=1
+    - /projects/XXXXX/activity?show_wiki_edits=1
