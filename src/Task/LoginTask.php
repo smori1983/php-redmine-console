@@ -1,4 +1,5 @@
 <?php
+
 namespace Momo\Redmine\Task;
 
 use Momo\Redmine\Config;

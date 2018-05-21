@@ -1,11 +1,12 @@
 <?php
+
 namespace Momo\Redmine\Http;
 
-use Symfony\Component\BrowserKit\Client as BaseClient;
-use Symfony\Component\BrowserKit\Response;
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Cookie\CookieJar;
 use GuzzleHttp\Cookie\SetCookie;
+use Symfony\Component\BrowserKit\Client as BaseClient;
+use Symfony\Component\BrowserKit\Response;
 
 class Client extends BaseClient
 {
@@ -19,7 +20,7 @@ class Client extends BaseClient
 
         $cookieJar = new CookieJar();
 
-        foreach ($this->getCookieJar()->all() as $cookie ) {
+        foreach ($this->getCookieJar()->all() as $cookie) {
             $cookieJar->setCookie(SetCookie::fromString((string) $cookie));
         }
 

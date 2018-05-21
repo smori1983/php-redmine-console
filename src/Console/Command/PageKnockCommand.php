@@ -1,4 +1,5 @@
 <?php
+
 namespace Momo\Redmine\Console\Command;
 
 use Momo\Redmine\Http\Client;
@@ -6,7 +7,6 @@ use Momo\Redmine\Task\LoginTask;
 use Momo\Redmine\Task\LogoutTask;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Output\OutputInterface;
 
 class PageKnockCommand extends Command

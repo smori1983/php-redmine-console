@@ -1,9 +1,10 @@
 <?php
+
 namespace Momo\Redmine\Console;
 
 use Momo\Redmine\Config;
-use Momo\Redmine\Console\Command\TicketCommentCommand;
 use Momo\Redmine\Console\Command\PageKnockCommand;
+use Momo\Redmine\Console\Command\TicketCommentCommand;
 use Momo\Redmine\Env;
 use Symfony\Component\Console\Application as ConsoleApplication;
 use Symfony\Component\Yaml\Yaml;
